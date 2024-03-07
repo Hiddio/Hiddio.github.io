@@ -1,0 +1,58 @@
+html
+{
+    font-family: verdana;
+}
+body 
+{
+  background-image: url("background.png");
+  background-position: center top;
+  background-color: #666;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 99%;
+  height: 100%;
+}
+.top-bar 
+{
+  width: 100%;
+  background-color: #444;
+  overflow: auto;
+}
+
+.top-bar a 
+{
+  font-family: verdana;
+  float: left;
+  height: 30%;
+  width: 20%;
+  text-align: center;
+  padding: 5px 0;
+  transition: all 0.2s ease;
+  color: white;
+  font-size: 200%;
+  text-decoration: none;
+}
+
+.top-bar a:hover 
+{
+  color: #4BBB77;
+  font-size: 250%;
+  background-color: #000;
+}
+
+.top-bar a:active 
+{
+  color: black;
+  font-family: verdana;
+  font-size: 50px;
+  background-color: #000;
+}
+
+h1
+{
+    color: white;
+}
+p
+{
+    color: white;
+}
